@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+*{
+    margin: 0.4%;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+/* body{
+    background-color: #7469B6;
+    /* overflow: hidden; */
+
+    
+/* } */ */
+
+
+
+/* Hide scrollbar visually */
+body {
+    margin-right: 0%;
+    overflow: auto;
+    -ms-overflow-style: none; /* Internet Explorer & Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Optional: if you want to hide scrollbar track */
+}
+
+.img{
+    width: 100%;
+    object-fit:fill;
+    overflow: hidden;
+    
+}
+.gif{
+    position: absolute;
+    width: 30%;
+    top: 60%;
+    left: 34%;
+    /* background-blend-mode: multiply; */
+   
+}
+.genie{
+
+    
+    position: absolute;
+    left: 15%;
+    top: 99%;
+
+}
+.cake{
+    position: absolute;
+    top: 94%;
+    bottom: 10%;
+    margin-left: 70%;
+    background-color: blue;
+    width: 90%;
+
+
+}
+
+.wish{
+    color:white;
+    margin-left: 33%;
+    /* background-color: black; */
+    position: absolute;
+    width: 50%;
+    padding-top: 13%;
+    top: 90%;
+    font-family: "Style Script", cursive;
+    font-weight: 700;
+    font-size: 40px;
+ 
+ 
+}
+/* video {
+    position: absolute;
+    transform: rotate(360deg);
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    visibility: visible;
+} */
+
+.card{
+    margin-top: 80px;
+    width: 750px;
+    height: 120vh;
+    /* display: flex; */
+    margin-left: 30%;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #FFC470;
+    font-family: "poppins";
+}
+.video{
+    /* background-color: black; */
+    height: 40vh;
+    display: flex;
+    /* padding-bottom:10px; */
+    justify-content: center;
+    align-self: center;
+}
